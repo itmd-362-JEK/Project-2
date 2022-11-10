@@ -1,1 +1,1 @@
-# Project-2 for ITMD-362This project is a redesign of the website for The International Society for Universal Dialogue at https://www.worldialogue.org
+# Project-2 for ITMD-362This project is a redesign of the website for The International Society for Universal Dialogue at https://www.worldialogue.orgGroup members include Jacob Holtz, Edis Masic and Ryan Jackson
