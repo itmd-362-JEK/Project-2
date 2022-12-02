@@ -9,6 +9,7 @@
     <script src="js/script.js" async></script>
   </head>
   <body>
+  
     <header>
    <nav class="navbar">
         <div class="navbar-container">
@@ -26,21 +27,26 @@
   <body>
 
 
-
- <h2>Contact Us:</h2>
+ <div class="content">
+ <h1>Contact Us:</h1>
     <p>Email:</p>
     <p>Phone: 847-812-9012</p
+
+<form name="form" action="#null" onsubmit="return validateForm()" method="get">
+ 
+  </div>
  
 <div class="container">
- <form name="form" action="#null" onsubmit="return validateForm()" method="get">
-    <label for="fname">First Name</label>
+    <a><img class="world" src="resources/world.png" alt></a>
+
+   <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
     <label for="Email">Email</label>
-  <input type="text" id="fname" name="phone" placeholder="Email">
+  <input type="text" id="fname" name="phone" placeholder="Email"  required>
    
  <label for="phone">Phone</label>
   <input type="text" id="fname" name="phone" placeholder="Phone Number">
@@ -49,9 +55,9 @@
     <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
 
     <input type="submit" value="Enter">
-  </form>
-</div>
 
+</div>
+ </form>
 </body>
   
   
